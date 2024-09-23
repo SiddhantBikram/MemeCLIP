@@ -1,4 +1,6 @@
 # MemeCLIP
 
 
-### Coming Soon
+
+
+### Code and Dataset are coming soon.
