@@ -2,6 +2,8 @@
 
 This is the code repository for our paper **<a href="https://arxiv.org/abs/2409.14703">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification**</a>
 
+![MemeClip Model](MemeCLIP.png)
+
 **Abstract**: The complexity of text-embedded images presents a formidable challenge in machine learning given the need for multimodal understanding of the multiple aspects of expression conveyed in them. While previous research in multimodal analysis has primarily focused on singular aspects such as hate speech and its subclasses, our study expands the focus to encompass multiple aspects of linguistics: hate, target, stance, and humor detection. We introduce a novel dataset PrideMM comprising text-embedded images associated with the LGBTQ+ Pride movement, thereby addressing a serious gap in existing resources. We conduct extensive experimentation on PrideMM by using unimodal and multimodal baseline methods to establish benchmarks for each task. Additionally, we propose a novel framework MemeCLIP for efficient downstream learning while preserving the knowledge of the pre-trained CLIP model. The results of our experiments show that MemeCLIP achieves superior performance compared to previously proposed frameworks on two real-world datasets. We further compare the performance of MemeCLIP and zero-shot GPT-4 on the hate classification task. Finally, we discuss the shortcomings of our model by qualitatively analyzing misclassified samples.
 
 ### PrideMM Dataset
@@ -51,6 +53,8 @@ To train, validate, and test MemeCLIP, set cfg.test_only = False and run main.py
 To test MemeCLIP, set cfg.test_only = True and run main.py.
 
 CSV files are expected to contain image path, text, and label in no particular order.
+
+Pre-trained weights for MemeCLIP (Hate Classification Task) are available <a href="https://drive.google.com/file/d/1sUlHw5fSvzPRnMu_K4uzHQY-df3E2pSi/view?usp=sharing">here</a>.
 
 ### Citation
 
