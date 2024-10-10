@@ -1,4 +1,4 @@
-<h3 font-size:40px align="center">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification</h2>
+<h2 font-size:40px align="center">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification</h2>
 <h4 font-size:40px align="center">Siddhant Bikram Shah, Shuvam Shiwakoti, Maheep Chaudhary, Haohan Wang</h3>
 
 <p align="center">
