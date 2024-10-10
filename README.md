@@ -1,4 +1,6 @@
-# MemeCLIP
+# MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification
+
+_Siddhant Bikram Shah, Shuvam Shiwakoti, Maheep Chaudhary, Haohan Wang_
 
 This is the code repository for our paper **<a href="https://arxiv.org/abs/2409.14703">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification**</a>
 
