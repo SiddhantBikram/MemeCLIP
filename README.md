@@ -1,5 +1,5 @@
-<h2 font-size:40px align="center">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification</h2>
-<h4 font-size:40px align="center">Siddhant Bikram Shah, Shuvam Shiwakoti, Maheep Chaudhary, Haohan Wang</h3>
+<h1 font-size:40px align="center">MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification</h2>
+<h3 font-size:40px align="center">Siddhant Bikram Shah, Shuvam Shiwakoti, Maheep Chaudhary, Haohan Wang</h3>
 
 <p align="center">
   <img src="MemeCLIP.png" />
@@ -11,17 +11,17 @@ This is the code repository for our EMNLP 2024 paper **<a href="https://arxiv.or
 
 ## PrideMM Dataset
 
-The images and labels for the PrideMM dataset are available <a href="https://drive.google.com/file/d/17WozXiXfq44Z6kkWsPPDHRzqIH2daUaQ/view?usp=sharing">here</a> <strong>(Warning: Sensitive information)</strong>.
+The images and labels for the PrideMM dataset are available <a href="https://drive.google.com/file/d/17WozXiXfq44Z6kkWsPPDHRzqIH2daUaQ/view?usp=sharing">here</a> <strong>(Warning: Potentially harmful content)</strong>.
 
-### Annotation Terminology
+## Annotation Terminology
 
-#### Hate
+### Hate
 |  Class | Terminology | 
 | :--------: | :--------: | 
 | No Hate | 0 | 
 | Hate | 1 | 
 
-#### Targets of Hate
+### Targets of Hate
 |  Class | Terminology | 
 | :--------: | :--------: | 
 | Undirected | 0 | 
@@ -29,14 +29,14 @@ The images and labels for the PrideMM dataset are available <a href="https://dri
 | Community | 2 | 
 | Organization | 3 |
 
-#### Stance
+### Stance
 |  Class | Terminology | 
 | :--------: | :--------: | 
 | Neutral | 0 | 
 | Support | 1 | 
 | Oppose | 2 | 
 
-#### Humor
+### Humor
 |  Class | Terminology | 
 | :--------: | :--------: | 
 | No Humor | 0 | 
@@ -44,7 +44,7 @@ The images and labels for the PrideMM dataset are available <a href="https://dri
 
 ## MemeCLIP Code
 
-All experimental changes can be made through a single file -- configs.py. Directory names can be set in the following variables:
+All experimental changes can be made through a single file: configs.py. Directory names can be set in the following variables:
 
 + cfg.root_dir 
 + cfg.img_folder
@@ -57,7 +57,7 @@ To test MemeCLIP, set cfg.test_only = True and run main.py.
 
 CSV files are expected to contain image path, text, and label in no particular order.
 
-### Pre-trained Weights
+## Pre-trained Weights
 
 Pre-trained weights for MemeCLIP (Hate Classification Task) are available <a href="https://drive.google.com/file/d/1sUlHw5fSvzPRnMu_K4uzHQY-df3E2pSi/view?usp=sharing">here</a>.
 
