@@ -11,7 +11,7 @@ This is the code repository for our EMNLP 2024 paper **<a href="https://arxiv.or
 
 ## PrideMM Dataset
 
-The images and labels for the PrideMM dataset are available <a href="https://drive.google.com/file/d/17WozXiXfq44Z6kkWsPPDHRzqIH2daUaQ/view?usp=sharing">here</a> <strong>(Warning: Potentially harmful content)</strong>.
+The images and labels for the PrideMM dataset are available <a href="https://drive.google.com/file/d/17WozXiXfq44Z6kkWsPPDHRzqIH2daUaQ/view?usp=sharing">here</a> <strong>(Warning: Potentially insensitive content)</strong>.
 
 ## Annotation Terminology
 
