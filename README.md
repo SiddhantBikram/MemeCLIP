@@ -44,7 +44,9 @@ The images and labels for the PrideMM dataset are available <a href="https://dri
 
 ## MemeCLIP Code
 
-All experimental changes can be made through a single file: configs.py. Directory names can be set in the following variables:
+All experimental changes can be made through a single file: configs.py. 
+
+Directory names can be set in the following variables:
 
 + cfg.root_dir 
 + cfg.img_folder
@@ -53,6 +55,7 @@ All experimental changes can be made through a single file: configs.py. Director
 + cfg.checkpoint_file
 
 To train, validate, and test MemeCLIP, set cfg.test_only = False and run main.py.
+
 To test MemeCLIP, set cfg.test_only = True and run main.py.
 
 CSV files are expected to contain image path, text, and label in no particular order.
