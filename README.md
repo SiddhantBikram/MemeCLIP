@@ -73,8 +73,10 @@ Pre-trained weights for MemeCLIP (Hate Classification Task) are available <a hre
   journal={arXiv preprint arXiv:2409.14703},
   year={2024}
 }
+```
 
 OR
 
 Siddhant Bikram Shah, Shuvam Shiwakoti, Maheep Chaudhary, and Haohan Wang. 2024. MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 17320–17332, Miami, Florida, USA. Association for Computational Linguistics.
-```
+
+
