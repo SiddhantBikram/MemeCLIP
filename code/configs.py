@@ -35,6 +35,7 @@ cfg.num_pre_output_layers = 1
 cfg.drop_probs = [0.1, 0.4, 0.2]
 cfg.lr = 1e-4
 cfg.max_epochs = 10
+cfg.ratio = 0.2
 cfg.weight_decay = 1e-4
 cfg.num_classes = len(cfg.class_names)
 cfg.scale = 30 
