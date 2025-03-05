@@ -67,11 +67,20 @@ Pre-trained weights for MemeCLIP (Hate Classification Task) are available <a hre
 ## Citation
 
 ```
-@article{shah2024memeclip,
-  title={MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification},
-  author={Shah, Siddhant Bikram and Shiwakoti, Shuvam and Chaudhary, Maheep and Wang, Haohan},
-  journal={arXiv preprint arXiv:2409.14703},
-  year={2024}
+@inproceedings{shah2024memeclip,
+    title = "MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification",
+    author = "Shah, Siddhant Bikram  and
+      Shiwakoti, Shuvam  and
+      Chaudhary, Maheep  and
+      Wang, Haohan",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.959/",
+    doi = "10.18653/v1/2024.emnlp-main.959",
+    pages = "17320--17332",
 }
 ```
 
