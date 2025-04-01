@@ -24,7 +24,6 @@ class Custom_Dataset(Dataset):
         self.label = label
 
         self.image_size = image_size
-        self.fast = fast
 
         self.info_file = cfg.info_file
         self.df = pd.read_csv(self.info_file)
@@ -115,6 +114,6 @@ class Custom_Collator(object):
 
 def load_dataset(cfg, split):
     dataset = Custom_Dataset(cfg = cfg, root_folder=cfg.root_dir, dataset=cfg.dataset_name, split=split,
-                           image_size=cfg.image_size, label = cfg.label, fast=cfg.fast_process)
+                           image_size=cfg.image_size, label = cfg.label)
 
     return dataset
