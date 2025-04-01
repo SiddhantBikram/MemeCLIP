@@ -15,7 +15,7 @@ torch.set_default_dtype(torch.float32)
 from configs import cfg
 
 class Custom_Dataset(Dataset):
-    def __init__(self, cfg, root_folder, dataset, label, split='train', image_size=224, fast=True):
+    def __init__(self, cfg, root_folder, dataset, label, split='train', image_size=224):
         super(Custom_Dataset, self).__init__()
         self.cfg = cfg
         self.root_folder = root_folder
